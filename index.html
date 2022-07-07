@@ -1,5 +1,6 @@
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="index.css"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>CSS Intro</title>
@@ -11,12 +12,15 @@
       <nav>
         <ul>
           <li>
+            <li class="nav-link">
             <a href="/">Home</a>
           </li>
           <li>
+            <li class="nav-link">
             <a href="/about">About</a>
           </li>
           <li>
+            <li class="nav-link">
             <a href="/projects">Projects</a>
           </li>
         </ul>
@@ -25,8 +29,8 @@
 
     <main>
       <section>
-        <h1>Main Heading</h1>
-        <img src="./images/example.png" alt="Author Headshot" />
+        <h1 id="title">Main Heading</h1>
+        <img id="avatar" src="./images/example.png" alt="Author Headshot" />
         <p>Author.. Bio...</p>
       </section>
       <article>
@@ -49,9 +53,11 @@
       <nav>
         <ul>
           <li>
+            <li class="d-inline">
             <a href="/privacy">Privacy Policy</a>
           </li>
           <li>
+            <li class="d-inline">
             <a href="/terms">Terms and Conditions</a>
           </li>
         </ul>
